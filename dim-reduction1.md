@@ -1,10 +1,5 @@
 # A Practical Guide to Principal Component Analysis (PCA)
 
-In this article, we discuss PCA and its related algorithms with example codes. In particular, we will include the following algorithms:
-1. Principal Component Analysis
-2. Linear Discriminent Analysis
-3. Singular Value Decomposition
-
 ![](https://c1.wallpaperflare.com/preview/270/321/283/block-chain-data-records-concept-system-communication.jpg)
 
 In this article, we discuss PCA and its related algorithm Singular Value Decomposition (SVD) with example codes. Looking at PCE and SVD under one single lens of dimensionality reduction will provide us with a global understanding, and therefore, it will make it easier to remember these concepts.
@@ -13,7 +8,7 @@ Please note that there are different variants of PCA (e.g. probabilistic PCA) th
 
 
 
-## Data
+# Data
 
 We will use a practical hands-on approach to understand the algorithms. Let's get familiar with the simple yet popular [iris dataset](https://www.kaggle.com/arshid/iris-flower-dataset) that we are going to use in our illustrative examples.
 
@@ -27,30 +22,14 @@ The data set consists of 50 samples from each of three species of Iris: **Iris S
 Four ```features``` were measured from each sample: the length and the width of the sepals and petals, in centimeters. These features are: **Sepal Length, Sepal Width, Petal Length, and Petal Width.**
 
 Here is a peek at the data in tabular format:
+
 ![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris-table.png)
 
 Statistical distribution of the features are:
+
 ![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris-dist.png)
 
 Now, we have a general idea of the dataset, and we are ready to use it in our future discussions.
-
-
----
-### 💀 Only for coders, others can safely ignore this block! 
-
-Quick overview of data:
- 
-```
-# Import data
-dataset = pd.read_csv('https://raw.githubusercontent.com/debanga/depurr/master/datasets/Iris.csv').drop(columns=['Id'])
-
-# See a tabular sample
-dataset.head()
-
-# Get feature distributions
-dataset.describe()
-```
----
 
 ## Principal Component Analysis
 
