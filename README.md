@@ -1,5 +1,6 @@
 ## Topics
 
-1. [A Brief overview of Principal Component Analysis (PCA)](https://debanga.github.com/depurr/dim-reduction1)
+1. Dimensionality Reduction
+- [A Brief overview of Principal Component Analysis (PCA) and related concepts](https://debanga.github.com/depurr/dim-reduction1)
 
 
