@@ -1,9 +1,8 @@
 # A Brief overview on Principal Component Analysis (PCA)
 
-This article discusses PCA and related algorithms with example codes. In particular, we will go over the following algorithms:
+In this article, we discuss PCA and its related algorithms with example codes. In particular, we will include the following algorithms:
 1. Principle Component Analysis
 2. Linear Discriminent Analysis
 3. Singular Value Decomposition
 
-Although you may have heard about these algorithms at different point of time presented in different flavors, fundamentally they are very similar. Studying them under one single 
-lens will provide a global understanding, and therefore, making it easier to remember these concepts.
+You may have seen these algorithms in different articles or books presented as separate concepts, but fundamentally they have many similarities. Studying them under one single lens of dimensionality reduction will provide us with a global understanding, and therefore, it will make it easier to remember these concepts.
