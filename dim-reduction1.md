@@ -66,3 +66,22 @@ dataset.head()
 dataset.describe()
 ```
 ---
+
+## Principal Component Analysis
+
+Now, consider a classification task: given a vector of 4 feature values (in real numbers) ```X=[SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm]``` we have to predict what is the label ```y```, i.e. what is the species of flower it represents.  
+
+Now, the question that arises is do we need all these 4 features to predict the species of flower, or we can do a "good" classification with a reduced number of features, say 2? That's where dimensionality reduction algorithm comes in handy. With a good dimensionality reduction algorithm we can reduce the number of features needed to perform a good classification. It has several benefits, such as:
+
+1. Dropping less important features that do not significantly contribute to the prediction,
+2. With less number of features we can perform predictions faster,
+3. It allows to transform the existing features to new mutually independent features which have better predictive power
+
+Of course, it comes with some disadvantages, such as, less interpretability of the transformed features, and loss of details from the data due to feature ellimination, but in practice in most of the cases, benefits from PCA trumps these disadvantages, and it is (or its variants) are widely used to solve real life problems. 
+
+It's time to look at a brief fomulation of PCA, and it will follow an example of PCA with our Iris dataset.
+
+### Theory
+
+
+### Example
