@@ -219,7 +219,7 @@ plt.show()
 
 # Jupyter Notebook
 
-![](https://www.kaggle.com/debanga/a-practical-look-at-principal-component-analysis)
+![Link to the Kaggle Notebook](https://www.kaggle.com/debanga/a-practical-look-at-principal-component-analysis)
 
 ## References
 [1] http://suruchifialoke.com/2016-10-13-machine-learning-tutorial-iris-classification/
