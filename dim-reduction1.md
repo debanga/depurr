@@ -1,32 +1,17 @@
-# A Practical Look at Principal Component Analysis (PCA)
+# A Practical Guide to Principal Component Analysis (PCA)
 
 In this article, we discuss PCA and its related algorithms with example codes. In particular, we will include the following algorithms:
 1. Principal Component Analysis
 2. Linear Discriminent Analysis
 3. Singular Value Decomposition
 
-You may have seen these algorithms in different articles or books presented as separate concepts, but fundamentally they have many similarities. Studying them under one single lens of dimensionality reduction will provide us with a global understanding, and therefore, it will make it easier to remember these concepts.
+![](https://c1.wallpaperflare.com/preview/270/321/283/block-chain-data-records-concept-system-communication.jpg)
 
----
-### 💀 Only for coders, others can safely ignore this block! 
+In this article, we discuss PCA and its related algorithm Singular Value Decomposition (SVD) with example codes. Looking at PCE and SVD under one single lens of dimensionality reduction will provide us with a global understanding, and therefore, it will make it easier to remember these concepts.
 
-Import the following packages into your Jupyter notebook:
- 
-```
-# Basic packages
-import numpy as np
-import pandas as pd 
-import matplotlib.pyplot as plt
- 
-# Scikit-learn packages
-from sklearn.datasets import load_iris
-from sklearn import linear_model
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import accuracy_score
-```
----
+Please note that there are different variants of PCA (e.g. probabilistic PCA) that can outperform vanilla PCA, that we will discuss in this article, in many occasions. But, my goal is not to explore PCA exhaustively, rather keep the discussion beginner friendly. I can discuss other advance variants in future articles.
+
+
 
 ## Data
 
