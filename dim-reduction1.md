@@ -46,26 +46,25 @@ I will start with a brief fomulation of PCA, supplement it with examples from th
 
 
 ## Theory
-PCA belongs to the ```unsupervised machine learning algorithms```. In unsupervised algorithms, we try to understand the data without looking at the labels, instead we analyze the distribution of data and recognize patterns, such as finding clusters and orthogonal features. 
+PCA belongs to the category of unsupervised machine learning algorithms. In unsupervised algorithms, we try to understand the data without looking at the labels. We analyze the distribution of data and recognize patterns, such as finding clusters and orthogonal features. 
 
-As we mentioned before, the goal of PCA is to reduce the number of features by projecting them into a reduced space constructed my mutually orthogonal features (also known as "principal components") with a compact represention of the distribution of data.
-
+As we mentioned before, the goal of PCA is to reduce the number of features by projecting them into a reduced dimensional space constructed by mutually orthogonal features (also known as "principal components") with a compact represention of the data distribution.
 
 We can break down the compuation of PCA into several steps:
 
 ### **Generation of feature matrix:** 
 
-Since PCA is an unsupervised algorithm, we do not use the labels, but only the features. Let's consider $X$ is the feature matrix of size $n$ x $m$, where $n$ is the total number of samples and $m$ is the number of features. In our Iris Dataset example $n=150$ and $m=4$.
+Since PCA is an unsupervised algorithm, we do not use the labels, but only the features. Let's consider ```X``` is a feature matrix of size ```n``` x ```m```, where ```n``` is the total number of samples and ```m``` is the number of features. In our Iris Dataset example ```n=150``` and ```m=4```.
 
-Therefore, $X=$ 
+Therefore, ```X=``` 
 
 ![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris-x.png)
 
 ### **[Data standarization](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html):** 
 
-To remove the sensitivity of the variance of the feature values, we standardize features by removing the mean and scaling to unit variance as $X_{standadized}=(X-X_{m})/X_{v}$, where, $X_{standadized}$ is the standardized feature matrix, $X_m$ is the feature wise mean and $X_v$ is feature wise standard deviation.
+To remove the sensitivity of the variance of the feature values, we standardize features by removing the mean and scaling to unit variance as ```X_standadized=(X-X_m)/X_v```, where, ```X_standadized``` is the standardized feature matrix, ```X_m``` is the feature wise mean and ```X_v``` is feature wise standard deviation.
 
-Therefore, $X_{standadized}=$
+Therefore, ```X_standadized=```
 
 ![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris-standard.png)
 
@@ -74,13 +73,13 @@ Therefore, $X_{standadized}=$
 
 Now, we need to find the eignevalues and eigenvectors of the dataset. There are different ways of doing it, such as (1) eignevalue decomposition of the covariance matrix of the data, (2) singular value decomposition, etc. All of them essentially give the same result, but considering the computational efficiency of SVD, and also, to remain aligned with our original goal to relate PCA with other related concepts, we will show the application of SVD here. 
 
-If we now perform singular value decomposition of $\mathbf X$, we obtain a decomposition 
+If we now perform singular value decomposition of ```X```, we obtain a decomposition 
 
-$$\mathbf X = \mathbf U \mathbf S \mathbf V^\top,$$ 
+```X = U * S * V'```
 
-where $\mathbf U$ is a unitary matrix and $\mathbf S$ is the diagonal matrix of singular values $s_i$. 
+where ```U``` is a unitary matrix and ```S``` is the diagonal matrix of singular values ```s_i```. 
 
-From here one can easily see that $$\mathbf C = \mathbf V \mathbf S \mathbf U^\top \mathbf U \mathbf S \mathbf V^\top /(n-1) = \mathbf V \frac{\mathbf S^2}{n-1}\mathbf V^\top,$$ meaning that right singular vectors $\mathbf V$ are principal directions and that singular values are related to the eigenvalues of covariance matrix via $\lambda_i = s_i^2/(n-1)$. 
+From here one can easily see that ``` C = V * S * U' * U * S * V' /(n-1) =  V * S * S * V' / (n-1)``` meaning that right singular vectors ```V``` are principal directions and that singular values are related to the eigenvalues of covariance matrix via ```s_i*s_i/(n-1)```. 
 
 Now, if we perform singular value decomposition of $X$, we will get:
 
