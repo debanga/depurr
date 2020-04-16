@@ -7,23 +7,26 @@ In this article, we discuss PCA and its related algorithms with example codes. I
 
 You may have seen these algorithms in different articles or books presented as separate concepts, but fundamentally they have many similarities. Studying them under one single lens of dimensionality reduction will provide us with a global understanding, and therefore, it will make it easier to remember these concepts.
 
-> ## 👽 $coders_only$
-> Import following packages in your jupyter notebook:
-> 
-> ```
-> # Basic packages
-> import numpy as np
-> import pandas as pd 
-> import matplotlib.pyplot as plt
-> 
-> # Scikit-learn package
-> from sklearn.datasets import load_iris
-> from sklearn import linear_model
-> from sklearn.linear_model import LogisticRegression
-> from sklearn.model_selection import train_test_split
-> from sklearn.preprocessing import LabelEncoder
-> from sklearn.metrics import accuracy_score
-> ```
+---
+### 💀 Only for coders: 
+
+Import following packages:
+ 
+```
+# Basic packages
+import numpy as np
+import pandas as pd 
+import matplotlib.pyplot as plt
+ 
+# Scikit-learn package
+from sklearn.datasets import load_iris
+from sklearn import linear_model
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import accuracy_score
+```
+---
 
 ## Data
 
