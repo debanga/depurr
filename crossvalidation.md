@@ -4,7 +4,7 @@
 
 ## K Folds
 
-KFold divides all the samples in k groups of samples, called folds ( if k=n this is equivalent to the Leave One Out strategy), of equal sizes (if possible). The prediction function is learned using k - 1 folds, and the fold left out is used for test.
+```KFolds``` divides all the samples in ```k``` groups of samples, called folds. The machine learning model is trained using ```k - 1``` folds, while the fold left out is used for validaton.
 
 ```
 from sklearn.model_selection import KFold
