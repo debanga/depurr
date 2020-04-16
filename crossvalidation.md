@@ -4,7 +4,7 @@
 
 ## K Folds
 
-```KFolds``` divides all the samples in ```k``` groups of samples, called folds. The machine learning model is trained using ```k - 1``` folds, while the fold left out is used for validaton.
+```KFolds``` divides all the samples in ```k``` groups of samples, called folds. The machine learning model is trained using ```k-1``` folds, while the fold left out is used for validaton.
 
 ```
 from sklearn.model_selection import KFold
