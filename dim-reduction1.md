@@ -79,19 +79,19 @@ If we now perform singular value decomposition of ```X```, we obtain a decomposi
 
 where ```U``` is a unitary matrix and ```S``` is the diagonal matrix of singular values ```s_i```. 
 
-From here one can easily see that ``` C = V * S * U' * U * S * V' /(n-1) =  V * S * S * V' / (n-1)``` meaning that right singular vectors ```V``` are principal directions and that singular values are related to the eigenvalues of covariance matrix via ```s_i*s_i/(n-1)```. 
+From here one can easily see that the covariance matrix, ``` C = V * S * U' * U * S * V' /(n-1) =  V * S * S * V' / (n-1)``` meaning that right singular vectors ```V``` are principal directions and that singular values are related to the eigenvalues of covariance matrix via ```s_i*s_i/(n-1)```. 
 
-Now, if we perform singular value decomposition of $X$, we will get:
+Now, if we perform singular value decomposition of ```X```, we will get:
 
-$V$ is a 4x4 matrix, and represent the eigenvectors:
+```V``` is a 4x4 matrix, and represent the eigenvectors:
 
 ![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris-svd-u.png)
 
-$S$ is a 4x150 matrix, and 4 diagonal components are represented by (say, $S_{diag}$):
+```S``` is a 4x150 matrix, and 4 diagonal components are represented by (say, ```S_diag```):
 
 ![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris-svd-s.png)
 
-$U$ is a 150x150 matrix:
+```U``` is a 150x150 matrix:
 
 ![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris-svd-v.png)
 
@@ -100,9 +100,9 @@ The eigenvalues are estimated as: ```[2.93035378, 0.92740362, 0.14834223, 0.0207
 
 ### **Drop eigenvectors to reduce dimensionality:** 
 
-We sort the eigenvectors by decreasing eigenvalues (or singular values) and choose $k$ eigenvectors with the largest eigenvalues to form a $m$ × $k$ dimensional matrix $P$. This matrix $P$ can be called a "projection matrix" and it can now be used to sample new points with 4 features into the reduced space with only $k$ dimensions.
+We sort the eigenvectors by decreasing eigenvalues (or singular values) and choose ```k``` eigenvectors with the largest eigenvalues to form a ```m``` × ```k``` dimensional matrix ```P```. This matrix ```P``` can be called a "projection matrix" and it can now be used to sample new points with 4 features into the reduced space with only ```k``` dimensions.
 
-If we use $k=2$; our singular values are: 
+If we use ```k=2```; our singular values are: 
 
 ```[2.93035378, 0.92740362]```
 
@@ -110,17 +110,17 @@ and corresponding eigen vectors are
 
 ```[-0.522372, 0.263355, -0.581254, -0.565611]``` and ```[-0.372318,-0.925556,-0.021095,-0.065416]```.
 
-Therefore, $P=$
+Therefore, ```P=```
 
 ![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris-projection.png)
 
 ### **Project features to reduced space**
 
-Now, using $P$ we can project our original 4 feature data, $X$ to a reduced 2 dimentional space as $X_{reduced}$:
+Now, using ```P``` we can project our original 4 feature data, ```X``` to a reduced 2 dimentional space as ```X_reduced```:
 
-$$X_{reduced} = X \times P$$
+```X_reduced = X * P```
 
-and $X_{reduced}$=
+and ```X_{reduced}```=
 
 ![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris_reduced.png)
 
