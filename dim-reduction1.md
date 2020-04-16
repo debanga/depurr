@@ -2,10 +2,9 @@
 
 ![](https://c1.wallpaperflare.com/preview/270/321/283/block-chain-data-records-concept-system-communication.jpg)
 
-In this article, we discuss PCA and its related algorithm Singular Value Decomposition (SVD) with example codes. Looking at PCE and SVD under one single lens of dimensionality reduction will provide us with a global understanding, and therefore, it will make it easier to remember these concepts.
+In this article, I will discuss PCA and its related algorithm Singular Value Decomposition (SVD) with example codes. Looking at PCE and SVD under one single lens of dimensionality reduction will provide us a global understanding, and hopefully help in remembering these concepts.
 
-Please note that there are different variants of PCA (e.g. probabilistic PCA) that can outperform vanilla PCA, that we will discuss in this article, in many occasions. But, my goal is not to explore PCA exhaustively, rather keep the discussion beginner friendly. I can discuss other advance variants in future articles.
-
+Please note that there are different variants of PCA (e.g. probabilistic PCA) that can outperform vanilla PCA that I will discuss. But my goal is not to explore PCA exhaustively, rather to keep the discussion beginner friendly. I can discuss other advance variants in future.
 
 
 # Data
@@ -17,9 +16,9 @@ The dataset description says,
 
 ![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris.png)
 
-The data set consists of 50 samples from each of three species of Iris: **Iris Setosa, Iris virginica, and Iris versicolor.**. Therefore, each sample will have a ```label``` from one of these three species.
+The data set consists of 50 samples from each of the three species of Iris: **Iris Setosa, Iris virginica, and Iris versicolor.**. Each sample in the dataset belongs to one of these species.
 
-Four ```features``` were measured from each sample: the length and the width of the sepals and petals, in centimeters. These features are: **Sepal Length, Sepal Width, Petal Length, and Petal Width.**
+Four ```features``` are documented for each sample: the length and the width of the sepals and petals, in centimeters. These features are: **Sepal Length, Sepal Width, Petal Length, and Petal Width.**
 
 Here is a peek at the data in tabular format:
 
@@ -29,7 +28,7 @@ Statistical distribution of the features are:
 
 ![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris-dist.png)
 
-Now, we have a general idea of the dataset, and we are ready to use it in our future discussions.
+Now, with a general idea about the dataset, we are ready to use it in our next discussions.
 
 # Principal Component Analysis
 
