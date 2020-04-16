@@ -1,4 +1,4 @@
-# A Brief overview of Principal Component Analysis (PCA)
+# A Practical Look at Principal Component Analysis (PCA)
 
 In this article, we discuss PCA and its related algorithms with example codes. In particular, we will include the following algorithms:
 1. Principal Component Analysis
