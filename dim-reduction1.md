@@ -222,3 +222,12 @@ plt.show()
 # Jupyter Notebook
 
 https://www.kaggle.com/debanga/a-practical-look-at-principal-component-analysis
+
+## References
+[1] http://suruchifialoke.com/2016-10-13-machine-learning-tutorial-iris-classification/
+
+[2] https://towardsdatascience.com/the-mathematics-behind-principal-component-analysis-fff2d7f4b643
+
+[3] https://www.kaggle.com/vipulgandhi/pca-beginner-s-guide-to-dimensionality-reduction
+
+[4] https://stats.stackexchange.com/posts/134283
