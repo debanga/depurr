@@ -8,9 +8,9 @@ In this article, we discuss PCA and its related algorithms with example codes. I
 You may have seen these algorithms in different articles or books presented as separate concepts, but fundamentally they have many similarities. Studying them under one single lens of dimensionality reduction will provide us with a global understanding, and therefore, it will make it easier to remember these concepts.
 
 ---
-### 💀 Only for coders: 
+### 💀 Only for coders, others can safely ignore! 
 
-Import following packages:
+Import following packages in your Jupyter notebook:
  
 ```
 # Basic packages
