@@ -1,1 +1,11 @@
-[I'm an inline-style link](https://github.com/debanga/depurr)
+[HOME](https://debanga.github.com/depurr)
+
+# Cross Validation
+
+## K Folds
+
+## Startified K Folds
+
+## GroupK Folds
+
+## Time Series Folds
