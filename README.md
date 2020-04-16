@@ -1,5 +1,5 @@
-## Contents
+## Topics
 
-1. [Cross Validation](https://debanga.github.com/depurr/crossvalidation)
+1. [Dimensionality Reduction](https://debanga.github.com/depurr/dim-reduction)
 
 
