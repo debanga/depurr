@@ -18,7 +18,7 @@ import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt
  
-# Scikit-learn package
+# Scikit-learn packages
 from sklearn.datasets import load_iris
 from sklearn import linear_model
 from sklearn.linear_model import LogisticRegression
@@ -35,9 +35,34 @@ We will use a practical hands-on approach to understand the algorithms. Let's ge
 The dataset description says,
 > The Iris dataset was used in R.A. Fisher's classic 1936 paper, "[The Use of Multiple Measurements in Taxonomic Problems](http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf)", and can also be found on the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/). It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. This dataset became a typical test case for many statistical classification techniques in machine learning such as support vector machines.
 
-![](http://suruchifialoke.com/img/ML/iris.png)
+![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris.png)
 
-The data set consists of 50 samples from each of three species of Iris: **Iris Setosa, Iris virginica, and Iris versicolor.** 
+The data set consists of 50 samples from each of three species of Iris: **Iris Setosa, Iris virginica, and Iris versicolor.**. Therefore, each sample will have a ```label``` from one of these three species.
 
-Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. These features are: **Sepal Length, Sepal Width, Petal Length, and Petal Width.**
+Four ```features``` were measured from each sample: the length and the width of the sepals and petals, in centimeters. These features are: **Sepal Length, Sepal Width, Petal Length, and Petal Width.**
 
+Here is a peek at the data in tabular format:
+![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris-table.png)
+
+Statistical distribution of the features are:
+![](https://raw.githubusercontent.com/debanga/depurr/master/images/iris-dist.png)
+
+Now, we have a general idea of the dataset, and we are ready to use it in our future discussions.
+
+
+---
+### 💀 Only for coders, others can safely ignore this block! 
+
+Quick overview of data:
+ 
+```
+# Import data
+dataset = pd.read_csv('https://raw.githubusercontent.com/debanga/depurr/master/datasets/Iris.csv').drop(columns=['Id'])
+
+# See a tabular sample
+dataset.head()
+
+# Get feature distributions
+dataset.describe()
+```
+---
