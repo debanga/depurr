@@ -136,7 +136,7 @@ As we can see, even after reducing the number of features from 4 to 2, the new f
 
 ## Our analysis can be done just in a few lines using scikit-learn package
 
-Fortunately, in future we don't have to do all the above analysis, as ```PCA``` function is available in ```scikit-learn``` python package. After data standardization step we can simply call the ```PCA``` function as follows to get ```X_reduced```:
+Fortunately, in future, we don't have to do all the above analysis, as ```PCA``` function is available in ```scikit-learn``` python package. After data standardization step we can simply call the ```PCA``` function, as follows, to get ```X_reduced```:
 
 ```
 from sklearn.decomposition import PCA
