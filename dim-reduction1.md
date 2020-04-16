@@ -7,4 +7,10 @@ In this article, we discuss PCA and its related algorithms with example codes. I
 
 You may have seen these algorithms in different articles or books presented as separate concepts, but fundamentally they have many similarities. Studying them under one single lens of dimensionality reduction will provide us with a global understanding, and therefore, it will make it easier to remember these concepts.
 
+## Data
 
+We will use a practical hands-on approach to understand the algorithms. Let's get familiar with the simple yet popular [iris dataset](https://www.kaggle.com/arshid/iris-flower-dataset) that we are going to use in our illustrative examples.
+
+The dataset description says,
+
+> The Iris flower data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems. It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. The data set consists of 50 samples from each of three species of Iris (Iris Setosa, Iris virginica, and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters. This dataset became a typical test case for many statistical classification techniques in machine learning such as support vector machines.
