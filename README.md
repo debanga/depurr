@@ -15,6 +15,7 @@
 * [Inference Kernel for Kaggle "Deepfake Detection Competition" (Competition Silver)](https://www.kaggle.com/debanga/96th-rank-inference-19-model-ensemble)
 * [Training in Parts by Loading Model States](https://www.kaggle.com/debanga/pytorch-inter-epoch-training-with-checkpoints)
 * [PyCaret Examples: A Lightweight AutoML Package](https://www.kaggle.com/debanga/introduction-to-pycaret)
+* [Faster RCNN: Intorduction to Global Wheat Detection Competition](https://www.kaggle.com/debanga/faster-rcnn-a-gentle-introduction)
 * [Auto Modeling in HuggingFace](https://www.kaggle.com/debanga/auto-hugging-face-to-the-rescue)
 * [HuggingFace Tokenizer CheatSheet](https://www.kaggle.com/debanga/huggingface-tokenizers-cheat-sheet)
 * [COVID Data Analysis Using LGBM in R](https://www.kaggle.com/debanga/beginner-s-r-script-with-lgbm)
