@@ -13,6 +13,7 @@
 
 ### 4. Kaggle Notebooks!
 * [Inference Kernel for Kaggle "Deepfake Detection Competition" (Competition Silver)](https://www.kaggle.com/debanga/96th-rank-inference-19-model-ensemble)
+* [Statistical Distances: Mahalanobis, Bhattacharyya, and KL-Divergence](https://www.kaggle.com/debanga/statistical-distances)
 * [Training in Parts by Loading Model States](https://www.kaggle.com/debanga/pytorch-inter-epoch-training-with-checkpoints)
 * [PyCaret Examples: A Lightweight AutoML Package](https://www.kaggle.com/debanga/introduction-to-pycaret)
 * [Faster RCNN: Intorduction to Global Wheat Detection Competition](https://www.kaggle.com/debanga/faster-rcnn-a-gentle-introduction)
