@@ -11,7 +11,10 @@
 ### 3. Deep Learning Tricks
 - [Demo for Continuing Training with Checkpoints (in PyTorch)](https://medium.com/@ZenFeather/pytorch-inter-epoch-training-with-checkpoints-bac8477828d)
 
-### 4. Kaggle Notebooks!
+### 4. Software Development
+- [Python Type Hinting](https://medium.com/@ZenFeather/python-type-hinting-a7afe4a5637e)
+
+### 5. Kaggle Notebooks!
 * [Inference Kernel for Kaggle "Deepfake Detection Competition" (Competition Silver)](https://www.kaggle.com/debanga/96th-rank-inference-19-model-ensemble)
 * [Statistical Distances: Mahalanobis, Bhattacharyya, and KL-Divergence](https://www.kaggle.com/debanga/statistical-distances)
 * [Training in Parts by Loading Model States](https://www.kaggle.com/debanga/pytorch-inter-epoch-training-with-checkpoints)
