@@ -13,6 +13,7 @@
 
 ### 4. Software Development
 - [Python Type Hinting](https://medium.com/@ZenFeather/python-type-hinting-a7afe4a5637e)
+- [A PEP8 Tool for Kaggle and Colab](https://github.com/nbpep8/nbpep8)
 
 ### 5. Kaggle Notebooks!
 * [Inference Kernel for Kaggle "Deepfake Detection Competition" (Competition Silver)](https://www.kaggle.com/debanga/96th-rank-inference-19-model-ensemble)
