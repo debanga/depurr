@@ -8,8 +8,9 @@
 ### 2. Machine Learning Libraries
 - [How to install Tensorflow in Windows](https://medium.com/@ZenFeather/how-to-install-tensorflow-in-windows-51e9c8f4c7a3)
 
-### 3. Deep Learning Tricks
+### 3. Deep Learning
 - [Demo for Continuing Training with Checkpoints (in PyTorch)](https://medium.com/@ZenFeather/pytorch-inter-epoch-training-with-checkpoints-bac8477828d)
+- [Implementing CutMix Augmentation](https://medium.com/@ZenFeather/cutmix-augmentation-in-python-bf099a97afac)
 
 ### 4. Software Development
 - [Python Type Hinting](https://medium.com/@ZenFeather/python-type-hinting-a7afe4a5637e)
