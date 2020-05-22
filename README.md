@@ -1,5 +1,7 @@
 # Home
 
+- [Quick Link to my MEDIUM Publication Page](https://medium.com/depurr)
+
 ## Contents
 
 ### 1. Dimensionality Reduction
